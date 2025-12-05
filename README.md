@@ -1,16 +1,74 @@
-# React + Vite
+Task Management Application
+A React-based task management application built to fulfill React JS assignment requirements, featuring JWT authentication, CRUD operations, and modern UI/UX.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Core Requirements ✅
+User Authentication (JWT-based)
+Login page with mock authentication
+JWT token storage in localStorage
+Protected routes for authenticated users only
 
-Currently, two official plugins are available:
+Task List Page
+Display tasks from JSONPlaceholder API
+Show task details: Title, Description, Status, Due Date
+Sortable by Due Date
+Filterable by Status (Pending, In Progress, Completed)
+Search functionality by task title
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add/Edit Task Page
+Form with Title, Description, Status, Due Date fields
+Form validation with error messages
+Edit existing tasks
+Mock API integration for create/update operations
 
-## React Compiler
+Mark Task as Completed
+One-click task completion
+Completed tasks become non-editable
+Best Practices & Code Quality
+Component-based architecture
+React Context for state management
+Responsive design
+Error handling and loading states
+Clean, maintainable code structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Demo Credentials
+Admin User:
+Username: admin
+Password: admin123
+Regular User:
+Username: user
+Password: user123
 
-## Expanding the ESLint configuration
+Installation
+Clone the repository:
+git clone https://github.com/yourusername/task-management-app.git
+Navigate to the project directory:
+bash
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Line Wrapping
+
+Collapse
+Copy
+1
+cd task-management-app
+Install dependencies:
+bash
+
+Line Wrapping
+
+Collapse
+Copy
+1
+npm install
+Running the Application
+Start the development server:
+bash
+
+Line Wrapping
+
+Collapse
+Copy
+1
+npm start
+Open http://localhost:3000 in your browser
+
